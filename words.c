@@ -1,5 +1,7 @@
 #include "layout.h";
 
+const int word_manolis[] = {X6Y3, X3Y4, X2Y5, X9Y6, X7Y7, X5Y8, X8Y8};
+
 const int word_it[]     = {X1Y1, X2Y1}; // WORKS
 const int word_is[]     = {X4Y1, X5Y1}; // WORKS
 const int word_ten[]    = {X7Y1, X8Y1, X9Y1}; // WORKS
@@ -37,14 +39,14 @@ const int word_patrick[] = {X1Y8, X2Y8, X3Y8, X4Y8, X5Y8, X6Y8, X7Y8}; // works
 const int word_sophia[] = {X8Y8, X9Y8, X10Y8, X11Y8, X12Y8, X13Y8}; // works
 
 // line 9
-const int word_fiveh[] = {X1Y9, X2Y9, X3Y9, X4Y9}; // works
+const int word_nine [] = {X1Y9, X2Y9, X3Y9, X4Y9}; // works
 const int word_seven[] = {X5Y9, X6Y9, X7Y9, X8Y9, X9Y9}; // works
-const int word_nine[] = {X10Y9, X11Y9, X12Y9, X13Y9}; // works
+const int word_fiveh[] = {X10Y9, X11Y9, X12Y9, X13Y9}; // works
 
 // line 10
-const int word_tenh[] = {X1Y10, X2Y10, X3Y10}; // works
+const int word_six[] = {X1Y10, X2Y10, X3Y10}; // works
 const int word_eight[] = {X5Y10, X6Y10, X7Y10, X8Y10, X9Y10};
-const int word_six[] = {X11Y10, X12Y10, X13Y10}; // works]
+const int word_tenh[] = {X11Y10, X12Y10, X13Y10}; // works]
 
 // line 11
 const int word_twelve[] = {X1Y11, X2Y11, X3Y11, X4Y11, X5Y11, X6Y11};
